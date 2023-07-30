@@ -39,7 +39,7 @@ func Commands(metaPtr *Meta, commands CommandFunc) map[string]cli.CommandFactory
 		all[k] = v
 	}
 
-	return nil
+	return all
 }
 
 type Command interface {
